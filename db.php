@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "34.200.32.20";
+$username = "gaucon";
+$password = "123@123a";
 $db = "onlineshop";
 
 // Create connection
