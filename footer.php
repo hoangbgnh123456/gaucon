@@ -10,9 +10,9 @@
 								<h3 class="footer-title">About Us</h3>
 								
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>address</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>9846372444</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>abc@gmail.com</a></li>
+									<li><a href="https://www.google.com/maps/place/tt.+Neo,+Tp.+B%E1%BA%AFc+Giang,+B%E1%BA%AFc+Giang,+Vi%E1%BB%87t+Nam/@21.204616,106.2234592,14z/data=!3m1!4b1!4m5!3m4!1s0x3135722d9c7ae1cb:0xc793e5558415dd16!8m2!3d21.2040303!4d106.2433886?hl=vi-VN"><i class="fa fa-map-marker"></i>261, Tiểu khu 3, Thị trấn Neo, Yên Dũng, Bắc Giang</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+84327227776</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>kakashi45640@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
