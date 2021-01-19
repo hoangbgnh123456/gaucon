@@ -1,11 +1,13 @@
-
-    <?php
+<?php
 session_start();
-include("../db.php");
+if(isset($_SESSION['user'])){
+	?>
+    <?php
+	include("../db.php");
 
-include "sidenav.php";
-include "topheader.php";
-?>
+	include "sidenav.php";
+	include "topheader.php";
+	?>
       <!-- End Navbar -->
       <div class="content">
         <div class="container-fluid">
@@ -67,6 +69,7 @@ include "topheader.php";
                             $sql = "SELECT COUNT(*) AS count_items FROM products WHERE product_cat=$i";
                             $query = mysqli_query($con,$sql);
                             $row = mysqli_fetch_array($query);
+                            $err = "";
                             $count=$row["count_items"];
                             $i++;
                         echo "<tr><td>$cat_id</td><td>$cat_title</td><td>$count</td>
@@ -142,12 +145,15 @@ include "topheader.php";
                 <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
               </div>
             </div>
-          </div>
-           
-            
-          
+          </div>             
         </div>
       </div>
+
       <?php
-include "footer.php";
-?>
+	include "footer.php";
+	}
+	else{
+		$err = "Login first";
+		header('location: Login.php');
+	}
+	?>
