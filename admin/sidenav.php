@@ -13,6 +13,7 @@
   <!-- Material Kit CSS -->
   <link href="assets/css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
   <link href="assets/css/black-dashboard.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="out.css">
   
 </head>
 
@@ -72,7 +73,7 @@
           <li class="nav-item ">
             <a class="nav-link" href="index.php">
               <i class="material-icons">logout</i>
-              <p>Logout</p>
+              <p class="out"><a href="out.php">Logout</a></p>
             </a>
           </li>
           <!-- <li class="nav-item active-pro ">
