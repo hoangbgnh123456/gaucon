@@ -3,8 +3,8 @@
           <nav class="float-left">
             <ul>
               <li>
-                <a href="">
-                  PuneethReddy
+                <a href="https://lmssplus.com/profile/Mohamed%20G%E1%BA%A5u%20Con">
+                  Ig for solo Yasuo
                 </a>
               </li>
             </ul>
@@ -14,7 +14,7 @@
             <script>
               document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
-            <a href="" target="_blank">Puneethreddy</a> for a better web.
+            <a href="https://www.facebook.com/Smeb.Sama/" target="_blank">Gaucon</a>  XDDDDDD.
           </div>
           <!-- your footer here -->
         </div>
