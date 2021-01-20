@@ -1,7 +1,7 @@
 <?php
 
 $servername = "34.230.84.57";
-$username = "root";
+$username = "gaucon";
 $password = "123@123a";
 $db = "onlineshop";
 
