@@ -1,6 +1,6 @@
 <?php
 
-$servername = "34.230.84.57";
+$servername = "3.140.182.115";
 $username = "gaucon";
 $password = "123@123a";
 $db = "onlineshop";
